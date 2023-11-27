@@ -1,0 +1,652 @@
+/*Стили для всех страниц*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+
+/*Стили для страницы регистрации*/
+
+.reg_box {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg_xbox {
+    background: #FFF;
+    width: 680px;
+    height: auto;
+    border-radius: 25px;
+    top: 400px;
+}
+
+.reg {
+    top: 35px;
+    left: 100px;
+    width: 480px;
+}
+
+.reg_title {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif, Noto Sans;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.arrow_reg {
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.pb_1 {
+    padding-bottom: 10px;
+}
+
+.reg_post {
+    appearance: none;
+    background: url("../media/icon/icon-arrow-down.png") no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-size: 25px;
+    width: 480px;
+    height: 60px;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+}
+
+/*Стили для страницы авторизации*/
+
+.error_authorization {
+    padding: 0;
+    margin: 0;
+}
+
+.auth_title {
+    margin-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif, Noto Sans;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.auth_box {
+    position: relative;
+    top: 150px;
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auth_xbox {
+    background: #FFF;
+    width: 680px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.login {
+    width: 480px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+}
+
+.login_error {
+    width: 480px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+    background-color: #c4b0b8;
+}
+
+.remember {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.button_registration {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.account_none {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.button_remember {
+    cursor: pointer;
+}
+
+.login_box {
+    padding-bottom: 10px;
+}
+
+.signin {
+    width: 480px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #656262;
+    border: none;
+    color: white;
+    margin-bottom: 70px;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.remember_me {
+    width: 490px;
+    padding-left: 15px;
+}
+
+.ms-8 {
+    margin-left: 80px;
+}
+
+.auth {
+    top: 80px;
+    left: 100px;
+}
+
+/*Стили для footer*/
+
+.footer {
+    width: 100%;
+    height: 55px;
+    background-color: #656262;
+    margin: 0;
+}
+
+.first_text_footer {
+    color: #FFF;
+    font-family: sans-serif, Noto Sans;
+    font-size: 20px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_text_footer {
+    color: #FFF;
+    font-family: sans-serif, Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+/*Стили для left bar*/
+
+.left_bar {
+    width: 290px;
+    height: 909px;
+    background: #073954;
+}
+
+.img_left_bar {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    width: 25px;
+    margin-right: 10px;
+}
+
+.button_left_bar {
+    text-decoration: none;
+    color: #FFF;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 2px;
+}
+
+.active_button_left_bar:hover {
+    color: black;
+}
+
+.not_active_button_left_bar:hover {
+    color: #AEC035;
+}
+
+.left_bar_text {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.active_left_bar {
+    background-color: #AEC035;
+    width: 290px;
+    height: 50px;
+}
+
+.not_active_left_bar {
+    width: 290px;
+    height: 50px;
+}
+
+.left_bar_title {
+    color: #FFF;
+    font-family: sans-serif, Noto Sans;
+    font-size: 24px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+/*Стили для сотрудников*/
+
+.img_search {
+    position: relative;
+    width: 25px;
+    top: -1px;
+}
+
+.form-control:focus {
+    border-color: #F0F0F0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(240, 240, 240);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(240, 240, 240);
+}
+
+.search_button {
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AEC035;
+    border: none;
+    margin-left: 10px;
+}
+
+.search_text {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+.staff_content {
+    padding-top: 25px;
+}
+
+.staff_line {
+    border: 1px solid black;
+}
+
+.staff_admin_title {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.staff_admin_text {
+    padding-left: 5px;
+    padding-top: 15px;
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bg-light-gray {
+    background: #F0F0F0;
+    padding-bottom: 15px;
+}
+
+.bg-gray {
+    background: #D9D9D9;
+    padding-bottom: 15px;
+}
+
+.img_staff_admin {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset-delete {
+    text-decoration: none;
+}
+
+.modal_content_edit {
+    flex-direction: column;
+    width: 550px;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    outline: 0;
+    padding: 20px;
+}
+
+.exit_button {
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: -30px;
+    width: auto;
+}
+
+.staff_admin_title_button {
+    text-align: center;
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.staff_admin_title_text {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.edit_button {
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AEC035;
+    border: none;
+    margin-left: 85px;
+    margin-top: 35px;
+}
+
+.edit_button_text {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cancel_button_delete {
+    width: 210px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AF5145;
+    border: none;
+    margin-top: 35px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.both_button_delete {
+    display: inline-flex;
+}
+
+.accept_button_delete {
+    width: 270px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AEC035;
+    border: none;
+    margin-top: 35px;
+}
+
+.exit_button_delete {
+    border: none;
+    background-color: white;
+    width: auto;
+    position: relative;
+    top: -5px;
+    left: 15px;
+}
+
+.staff_admin_title_text_delete {
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.staff_admin_title_button_delete {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.staff_admin_button_post {
+    appearance: none;
+    background: url(../media/icon/icon-arrow-down.png) no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-size: 25px;
+    width: 460px;
+    height: 60px;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+}
+
+.pl-1 {
+    padding-left: 5px;
+}
+
+.modal_content_delete {
+    flex-direction: column;
+    width: 550px;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    outline: 0;
+    padding: 20px;
+}
+
+/*Стили для пагинации*/
+
+.paginations {
+    margin-top: 10px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #073954;
+    border: 1px solid #073954;
+}
+
+.page-item:hover {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.page-item:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.page-link:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.page-link {
+    color: black
+}
+
+.page-link:hover {
+    color: black
+}
+
+.pagination-text nav {
+    color: black;
+}
+
+/*Стили для проектов*/
+
+.number_project {
+    width: 50px;
+}
+
+.exit_button_project {
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    width: auto;
+}
+
+textarea.form-control {
+    resize: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.project_admin_title_button {
+    text-align: center;
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 25px;
+}
+
+.edit_button_project {
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AEC035;
+    border: none;
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.exit_button_edit_project {
+    border: none;
+    background-color: white;
+    position: absolute;
+    right: -30px;
+    width: auto;
+}
+
+.project_admin_button_post {
+    appearance: none;
+    background: url(../media/icon/icon-arrow-down.png) no-repeat right;
+    background-position-x: calc(100% - 15px);
+    background-size: 25px;
+    width: 480px;
+    height: 60px;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+}
+
+.project_admin_title_text {
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.edit_button_edit_project{
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    background: #AEC035;
+    border: none;
+    margin-left: 95px;
+    margin-top: 35px;
+}
+
+.input_edit_project{
+    width: 480px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+    padding-right: 20px;
+}
+
+.title_edit_project{
+    padding-bottom: 5px;
+}
+
+.add_button_project{
+    position: absolute;
+    border-radius: 15px;
+    right: 10px;
+    bottom: 75px;
+    color: #000;
+    font-family: sans-serif, Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 280px;
+    height: 60px;
+    background: #AEC035;
+    border: none;
+}
